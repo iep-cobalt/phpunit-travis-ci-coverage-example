@@ -16,9 +16,9 @@ $calc = new Calculator();
 <hr>
 <?php
 
-echo $calc->add(2, 3);
-echo '<br>';
-echo $calc->multiply(2, 3);
+  echo $calc->add(2, 3);
+  echo '<br>';
+  echo $calc->multiply(2, 3);
 
 ?>
 </body>
