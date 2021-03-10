@@ -61,4 +61,20 @@ class Calculator
         }
         return $x / $y;
     }
+    
+    /**
+     * Get the remain from the modulus of two numbers.
+     *
+     * @param $x
+     * @param $y
+     *
+     * @return float
+     */
+    public function modulos($x, $y)
+    {
+        if ($y === 0) {
+            throw new \InvalidArgumentException("The divisor cannot be zero!");
+        }
+        return $x % $y;
+    }
 }
